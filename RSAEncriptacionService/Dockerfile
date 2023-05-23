@@ -1,5 +1,6 @@
 FROM mcr.microsoft.com/dotnet/aspnet:5.0-focal AS base
 WORKDIR /app
+COPY ["private.key.pem", "./"]
 EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:5.0-focal AS build
 WORKDIR /src
