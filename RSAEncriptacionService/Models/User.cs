@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace RSAEncriptacionService.Models
+﻿namespace RSAEncriptacionService.Models
 {
     public class User
     {
